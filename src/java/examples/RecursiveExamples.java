@@ -17,6 +17,12 @@ class RecursiveExamples {
                         0;
     }
 
+    /**
+     *
+     * @param row horizontal cells count
+     * @param column vertical cells count
+     * @return count of unique paths possible from (0,0) cell to (row,column) cell
+     */
     static int uniquePathsCount(int row, int column) {
         if (row * column == 0) {
             return 0;
